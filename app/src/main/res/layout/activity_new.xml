@@ -4,24 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
+    <EditText
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:text="Name"
+        android:ems="10"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
         android:layout_below="@id/textView"
-        android:text="Name" />
+        android:ems="10"
+        android:inputType="text" />
 
     <Button
         android:id="@+id/Save"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextText"
         android:text="Save"
